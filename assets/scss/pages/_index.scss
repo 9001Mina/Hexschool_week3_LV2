@@ -1,3 +1,114 @@
-.index-title {
-  font-size: 100px;
-}
+// 標題
+.storeDetails-title{
+    margin-top: 96px;
+    height: 72px;
+    border-left: 8px solid #9F1213;
+  }
+  .storeDetails-title span{
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 16px;
+  }
+  // 下拉式選單
+  .select{
+    display: flex;
+    margin-top: 33px;
+    margin-bottom: 41px;
+  }
+  .select .text{
+    font-size: 24px;
+    margin-right: 16px;
+  }
+  .dropDowns{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+  }
+  .dropDowns p{
+    font-size: 18px;
+    color: #495057;
+    opacity: 0.75;
+  }
+  .dropDowns a:visited{
+    color: #495057;
+  }
+  .dropDownsLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .arrow{
+    width: 24px;
+    height: 24px;
+    color: #000; 
+  }
+  
+  // 門市細節
+  .items{
+    display: flex;
+  }
+  .details{
+    margin-right: 24px;
+  }
+  .storeImg{
+    width: 526px;
+    height: 224px;
+  }
+  .storeImg p{
+    width: 526px;
+    height: 224px;
+    background: url(/assets/images/storepage-1.png);
+    background-size: 526px 224px;
+    float: left;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .storeName{
+    width: 526px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 24px;
+    border: 1px solid #00000020;
+    padding-left: 24px;
+  }
+  .details .contact{
+    width: 526px;
+    height: 138px;
+    padding-top: 16px;
+    padding-left: 27px;
+    color: #212529;
+    border: 1px solid #00000020;
+  }
+  .phoneImg{
+    font-size: 18px;
+    padding-right: 11px;
+  }
+  .phone a{
+    color: #212529;
+  }
+  .clockImg{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #212529;
+  }
+  .flag{
+    font-size: 20px;
+    padding-right: 12px;
+    color: #212529;
+  }
+  .phone a, .businessHours, .address{
+    font-size: 20px;
+  }
+  .phone, .businessHours, .address{
+    display: flex;
+    align-items: center;
+  }
+  .phone, .businessHours{
+    margin-bottom: 8px;
+  }
+  .map{
+    width: 746px;
+    height: 414px;
+  }
